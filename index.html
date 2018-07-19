@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get and post queries usind fetch() method</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="dist/dist.css" rel="stylesheet">
+</head>
+<body>
+<heder>
+    <section class="image-information">
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-1.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-2.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-3.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-4.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-5.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-8.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-7.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-8.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-9.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-10.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-11.png"></div>
+        <div class="image-information__img"><img src="img/small_hotdogs/photo-10.png"></div>
+    </section>
+    <section class="menu">
+        <ul class="menu__ul">
+            <li class="menu__li">Menu</li>
+            <li class="menu__li">Catering</li>
+            <li class="menu__li">About Us</li>
+            <li class="menu__li" onclick="showContact()">Contact</li>
+        </ul>
+    </section>
+</heder>
+<section id="contactInfo" style="display: none">
+    <form name="contactForm" id="contactForm">
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <p><span id="errorEmail"></span></p>
+        </div>
+        <div>
+            <label for="name">User Name</label>
+            <input type="text" id="name" placeholder="User Name" name="name">
+            <p><span id="errorName"></span></p>
+        </div>
+        <div>
+            <label for="comment">Your Comment</label>
+            <input type="textarea" id="comment" placeholder="Your Comment" name="comment">
+            <p><span id="errorComment"></span></p>
+        </div>
+        <button type="button" id="btnContact" onclick="contactUs()">Contact us</button>
+    </form>
+</section>
+<section id="main">
+    <div class="dirty-dogs">
+        <div><img src="img/hotdog.png" class="dirty-dogs__img"></div>
+        <div><p class="dirty-dogs__p">Dirty Dogs serves all-beef, vegan and vegatagian hot dogs.</p></div>
+        <div><input type="button" value="More Dogs ‘n Make Em Hot" class="dirty-dogs__button"></div>
+    </div>
+    <div id="hotdog-list"></div>
+</section>
+<footer class="footer">
+    <div class="footer__div"><p class="footer__p">® 2016 Dirty Dogs all rights reserved</p></div>
+    <div class="footer__div">
+        <p class="footer__p">274 Marconi Blvd. Columbus, Ohio 43215    |   614.538.0095   |   Contact Usß</p>
+    </div>
+</footer>
+<script src="dist/dist.js"></script>
+</body>
+</html>

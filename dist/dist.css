@@ -1,0 +1,152 @@
+#contactForm {
+  ont-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#btnContact {
+  width: 140px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #286782;
+  color: #fff;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+}
+
+#errorComment,
+#errorEmail,
+#errorName {
+  color: red;
+}
+.image-information {
+  height: 487px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.image-information__img {
+  width: 16.6%;
+  line-height: 1px;
+}
+
+.image-information__img {
+  width: 16.6%;
+  line-height: 1px;
+}
+
+.menu__ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__li {
+  list-style: none;
+  color: #2e2e2e;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 78px;
+  margin-top: 45px;
+}
+
+.dirty-dogs {
+  height: 685px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 1px rgba(0,0,0,0.11);
+}
+
+.dirty-dogs__button {
+  width: 310px;
+  height: 65px;
+  border-radius: 6px;
+  background-color: #286782;
+  color: #fff;
+  font-family: "Open Sans - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+}
+
+.dirty-dogs__img {
+  margin-top: 115px;
+}
+
+.dirty-dogs__p {
+  margin-top: 35px;
+  margin-bottom: 80px;
+  padding: 0 300px;
+  color: #555559;
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: -2.24px;
+}
+
+#hotdog-list {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.hotdog-list__div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotdog-list__h2 {
+  padding-left: 86px;
+  color: #555559;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+}
+
+.hotdog-list__img {
+  margin-right: 19px;
+  padding-bottom: 6px;
+}
+
+.hotdog-list__p {
+  padding-top: 33px;
+  padding-left: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+  background-color: #e9e9e9;
+}
+
+.footer__div {
+  padding: 0 20px;
+}
+
+.footer__p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
